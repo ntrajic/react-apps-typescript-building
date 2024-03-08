@@ -79,8 +79,38 @@
     NOTE: when there's no package.json, then add these dependecies manually into package.json:
         npm add typescript @types/react @types/react-dom @types/node
 
-    1. move app/src/App.jsx app/src/App.tsx
-    2. npm run start <enter>            // this will create and configure: tsconfig.json file !!!!
+    1. git mv .\app\src\App.jsx .\app\src\App.tsx   //move app/src/App.jsx app/src/App.tsx
+    2. npm run start <enter>                        // this will create and configure: tsconfig.json file !!!!
+
+    3. conference-speakers-app\app> git add tsconfig.json 
+    where its content is:
+
+    {
+      "compilerOptions": {
+        "target": "es5",
+        "lib": [
+          "dom",
+          "dom.iterable",
+          "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react"
+      },
+      "include": [
+        "src"
+      ]
+    }
+
 
 #### second step branches
     The second module covering class and function components is located from the `m3-class-and-function-components` branch to start, and the completed example is in the `m3-class-and-function-components-final` branch.
