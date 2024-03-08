@@ -112,8 +112,22 @@
     }
 
 
-#### second step branches
+#### second step branch
     The second module covering class and function components is located from the `m3-class-and-function-components` branch to start, and the completed example is in the `m3-class-and-function-components-final` branch.
+
+    - Class components
+        - implementing error boundary with props and state
+        - working with component children
+    - Function components
+        - implementing navigation link
+        - warning of potential bugs
+        - self-documenting code
+
+    files:
+    conference-speakers-app/app/src/pages/conference/Conference.tsx
+    conference-speakers-app/app/src/pages/conference/ErrorBoundary.tsx
+    conference-speakers-app/app/src/pages/conference/Navigation.tsx
+
 
 #### third step branches
     The last module follows the same pattern, with the initial starting point in the `m4-declaring-and-using-hooks-with-typescript` branch and the final code in the `m4-declaring-and-using-hooks-with-typescript-final` branch.
