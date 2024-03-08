@@ -1,0 +1,96 @@
+# Creating react demo-app from scratch
+
+
+C:\SRC\React\react-apps-typescript-building>
+npx create-react-app demo-app --template typescript
+
+OUT:
+npx: installed 66 in 7.869s
+
+Creating a new React app in C:\SRC\React\react-apps-typescript-building\demo-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template-typescript...
+
+
+> core-js@3.36.0 postinstall C:\SRC\React\react-apps-typescript-building\demo-app\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.36.0 postinstall C:\SRC\React\react-apps-typescript-building\demo-app\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
++ cra-template-typescript@1.2.0
++ react-scripts@5.0.1
++ react@18.2.0
++ react-dom@18.2.0
+added 1504 packages from 654 contributors in 84.48s
+
+254 packages are looking for funding
+  run `npm fund` for details
+
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+npm WARN @apideck/better-ajv-errors@0.3.6 requires a peer of ajv@>=8 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @types/node@16.18.87
++ web-vitals@2.1.4
++ @types/react-dom@18.2.21
++ @types/jest@27.5.2
++ @testing-library/jest-dom@5.17.0
++ @types/react@18.2.64
++ @testing-library/user-event@13.5.0
++ @testing-library/react@13.4.0
++ typescript@4.9.5
+added 40 packages from 78 contributors, removed 1 package and updated 1 package in 10.36s
+
+258 packages are looking for funding
+  run `npm fund` for details
+
+
+We detected TypeScript in your project (src\App.test.tsx) and created a tsconfig.json file for you.
+
+Your tsconfig.json has been populated with default values.
+
+Removing template package using npm...
+
+npm WARN @apideck/better-ajv-errors@0.3.6 requires a peer of ajv@>=8 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+removed 1 package and audited 1546 packages in 5.653s
+
+258 packages are looking for funding
+  run `npm fund` for details
+
+found 2 vulnerabilities (1 moderate, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+Created git commit.
+
+Success! Created demo-app at C:\SRC\React\react-apps-typescript-building\demo-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd demo-app
+  npm start
+
+Happy hacking!
